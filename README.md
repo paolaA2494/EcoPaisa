@@ -4,7 +4,7 @@ Para tener en cuenta
 
 clonar el repositorio en local con git clone y la URL del proyecto, en la terminal Git (https://github.com/paolaA2494/PruebaTecnicaNeumomed.git).
 
-Para que funcionen todas las dependencias instaladas introducir en la terminal nmp i
+Para que funcionen todas las dependencias instaladas introducir en la terminal npm i
 
 
 Cualquier inquietud preguntar 
