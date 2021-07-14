@@ -25,7 +25,7 @@ class Neumomed extends Component {
             ciudad sostenible.</h5>
           </div>
           <div className="col-md-6 col-12 px-0 pt-3">
-            <img className="rounded-pill img-fluid mx-auto d-block font-weight-normal ml-5" width="540" height="370" src={Imagen1} alt="Responsive image" />
+            <img className="rounded-pill img-fluid mx-auto d-block font-weight-normal ml-5" width="540" height="370" src={Imagen1} alt="..."></img>
           </div>
         </div>
       </div>

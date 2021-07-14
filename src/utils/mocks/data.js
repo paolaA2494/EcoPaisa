@@ -9,7 +9,7 @@ export const data = {
       id: 1,
       ref: 'https://www.youtube.com/channel/UCf_U0-K7i3qnRTlGci7z1yQ?view_as=subscriber',
       slide:"0",
-      image: Banner1,
+      photo: Banner1,
       className: "carousel-item active",
       state: "active"
 
@@ -18,7 +18,7 @@ export const data = {
       id: 2,
       ref: 'https://www.youtube.com/channel/UCf_U0-K7i3qnRTlGci7z1yQ?view_as=subscriber',
       slide:"1",
-      image: Banner2,
+      photo: Banner2,
       className: "carousel-item",
       state: ""
       
@@ -27,7 +27,7 @@ export const data = {
       id: 3,
       ref: 'https://www.youtube.com/channel/UCf_U0-K7i3qnRTlGci7z1yQ?view_as=subscriber',
       slide:"2",
-      image: Banner3,
+      photo: Banner3,
       className: "carousel-item",
       state: ""
     }

@@ -27,8 +27,8 @@ class Banner extends Component {
             return (
 
               <div key={`param-${params}`} className={param.className}>
-                <a href={param.ref} target="_blank" >
-                  <img className="bd-placeholder-img" width="100%" height="100%" src={param.image} /></a>
+                <a href={param.ref} target="_blank"  rel="noopener">
+                  <img className="bd-placeholder-img" width="100%" height="100%" src={param.photo}></img></a>
               </div>
 
             )
