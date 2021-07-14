@@ -15,7 +15,7 @@ class Banner extends Component {
         <ol className="carousel-indicators">
           {this.props.data.map((item, index) => {
             return (
-              <li key={`${index.id}`} data-target="#myCarousel" data-slide-to={item.slide}
+              <li key={`item-${index}`} data-target="#myCarousel" data-slide-to={item.slide}
                className={item.state}></li>
 
             )
@@ -23,12 +23,12 @@ class Banner extends Component {
           })}
         </ol>
         <div className="carousel-inner">
-          {this.props.data.map((item, index) => {
+          {this.props.data.map((param, params) => {
             return (
 
-              <div key={`${index.id}`} className={item.className}>
-                <a href={item.ref} target="_blank" >
-                  <img className="bd-placeholder-img" width="100%" height="100%" src={item.image} /></a>
+              <div key={`param-${params}`} className={param.className}>
+                <a href={param.ref} target="_blank" >
+                  <img className="bd-placeholder-img" width="100%" height="100%" src={param.image} /></a>
               </div>
 
             )

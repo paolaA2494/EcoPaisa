@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Styles/Services.css';
+import './Styles/Values.css';
 
-class Services extends Component {
+class Values extends Component {
 
     
     constructor(props) {
@@ -16,7 +16,7 @@ class Services extends Component {
             <div className="row mt-5 pt-5 pb-5 mb-5">
             {this.props.data.map((item, index) => {
             return (
-            <div key={`${index.id}`} className="col-md-4">
+            <div  key={`item-${index}`} className="col-md-4">
               <hr className="line-services"/>
               <h2 className="name-service pt-5 pb-3 pl-3">{item.name}</h2>
               <ul className="list font-weight-normal pr-3">
@@ -34,4 +34,4 @@ class Services extends Component {
     }
 }
  
-export default Services;
+export default Values;

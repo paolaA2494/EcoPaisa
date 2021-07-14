@@ -1,9 +1,6 @@
-import Banner1 from './imagesbanner/Banner 1.jpg';
-import Banner2 from './imagesbanner/Banner 2.jpg';
-import Banner3 from './imagesbanner/Banner 3.jpg';
-import Banner4 from './imagesbanner/Banner 4.jpg';
-import Banner5 from './imagesbanner/Banner 5.jpg';
-import Banner6 from './imagesbanner/Banner 6.jpg';
+import Banner1 from './imagesbanner/banner1.png';
+import Banner2 from './imagesbanner/banner2.png';
+import Banner3 from './imagesbanner/banner3.png';
 
 export const data = {
 
@@ -33,56 +30,32 @@ export const data = {
       image: Banner3,
       className: "carousel-item",
       state: ""
-    },
-    {
-      id: 4,
-      ref: 'https://www.youtube.com/channel/UCf_U0-K7i3qnRTlGci7z1yQ?view_as=subscriber',
-      slide:"3",
-      image: Banner4,
-      className: "carousel-item",
-      state: ""
-    },
-    {
-      id: 5,
-      ref: 'https://www.youtube.com/channel/UCf_U0-K7i3qnRTlGci7z1yQ?view_as=subscriber',
-      slide:"4",
-      image: Banner5,
-      className: "carousel-item",
-      state: ""
-    },
-    {
-      id: 6,
-      ref: 'https://www.youtube.com/channel/UCf_U0-K7i3qnRTlGci7z1yQ?view_as=subscriber',
-      slide:"5",
-      image: Banner6,
-      className: "carousel-item",
-      state: ""
     }
   ],
 
-  services: [
+  values: [
   
       {
         id: 1,
-        name:"Programas",
-        item1:"Programa de EPOC y ASMA",
-        item2:"Programa de SAHOS",
-        item3:"Programa Dejar de Fumar"
+        name:"Valores",
+        item1:"Respeto y lealtad",
+        item2:"Verdad y ética",
+        item3:"Responsabilidad social y ambiental"
   
       },
       {
         id: 2,
-        name:"Terapias",
-        item1:"Rehabilitación Pulmonar",
-        item2:"Terapia Miofuncional Orofacial",
-        item3:" Terapia Cognitivo Conductual"        
+        name:"Compromisos",
+        item1:"Servicios de calidad",
+        item2:"Certificación ambiental",
+        item3:"Cumplimiento de la norma"        
       },
       {
         id: 3,
-        name:"Consultas",
-        item1:"Consulta de Neumología",
-        item2:"Consulta de Nutrición",
-        item3:"Consulta de Psicología"
+        name:"Metas",
+        item1:"Reducir la generación de residuos sólidos",
+        item2:"Contribuir al desarrollo sostenible del país",
+        item3:"Ser una de las empresar ambientales,  más reconocidas "
       }
   ]
 

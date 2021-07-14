@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
-import Neumomed from './Neumomed';
-import Services from './Services';
+import Hay from './Hay';
+import Values from './Values';
 import { data } from '../utils/mocks/data';
 
-class Content extends Component {
+class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {}
@@ -13,11 +13,11 @@ class Content extends Component {
         return (
             <div>
                 <Banner data = {data.banner}/>
-                <Neumomed /> 
-                <Services data = {data.services}/>
+                <Hay /> 
+                <Values data = {data.values}/>
             </div>
         );
     }
 }
 
-export default Content;
+export default Home;

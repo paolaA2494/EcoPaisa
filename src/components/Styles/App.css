@@ -1,9 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap');
 
+
 .nav{
   font-family: 'Montserrat', sans-serif;
-  color: #0b9dcd;
+  color: #288042;
 }
 
 .content{
@@ -23,13 +24,13 @@ p{
 
 .line{
   height: 1px;
-  background-color: #3A899A;
+  background-color: #82BF3E;
 
 }
 
 
 .nav:hover{
-  color: #33ccff !important;
+  color: #288042 !important;
 
 }
 

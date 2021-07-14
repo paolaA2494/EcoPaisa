@@ -1,20 +1,25 @@
 import React from 'react';
-import Logo from '../images/Logo-Oficial-sin-bordes.png';
+import Logo from '../images/EcoPaisa_Logo.png';
 import './Styles/App.css';
 import { Link } from 'react-router-dom';
 
 
 
 
-function NavBar () {
-     return (
-        <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
-        <img className="my-0 mr-md-auto font-weight-normal ml-5" width="80" height="50" src={Logo} alt="Responsive image"/>
-        <nav className="my-2 my-md-0 mr-md-5 pr-5">
-        <Link className="text-decoration-none" to="/home"><a className="nav text-decoration-none" href="#">INICIO</a></Link>
-        </nav>
+function NavBar() {
+  return (
+    <div className="d-flex justify-content-between flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <div className="d-flex  align-items-center">
+        <img className="my-0 mr-md-auto font-weight-normal" width="180" height="180" src={Logo} alt="Responsive image" />
+        <span className="nav">EcoPaisa</span>
       </div>
-    );
+      <nav className="my-2 my-md-0 mr-md-3 d-flex">
+        <Link className="nav p-2" to="/home">Inicio</Link>
+        <Link className="nav p-2" to="/home">Misión y Visión</Link>
+        <Link className="nav p-2" to="/home">Portafolio</Link>
+      </nav>
+    </div>
+  );
 }
 
 

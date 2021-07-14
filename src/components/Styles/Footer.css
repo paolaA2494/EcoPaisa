@@ -2,7 +2,7 @@
 
 
 .contain{
-    background-color: #3A899A ;
+    background-color:  #82BF3E ;
   }
 
 h2, h3{
@@ -13,4 +13,13 @@ h2, h3{
 .name{
   color:white;
   text-decoration: white;
+}
+
+
+@media (max-width: 1321px){
+  
+  .map-adress{
+    width: 480px !important;
+    height: 200px !important;
+  }
 }
